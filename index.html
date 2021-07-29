@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <form method="POST" action="procesar.php" class="form">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label>Name: <input type="text" name="username" required="required" class="color"></label>
+                <br>
+                <label>Email: <input type="email" required="required" class="color"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Review:</legend>
+                <label>How did you hear about us?
+                    <select name="about" class="about">
+                        <option value="Google">Google</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Instagran">Instagran</option>
+                        <option value="Twitter">Twitter</option>
+                        <option value="Friends">Friends</option>
+                    </select>
+                </label>
+                <br>
+                <label>Would you visit again? <br>
+                    <input type="radio" name="answer" value="Yes" required="required">Yes
+                    <input type="radio" name="answer" value="No" required="required">No
+                    <input type="radio" name="answer" value="Maybe" required="required" class="about">Maybe
+                </label>
+                <br>
+                <label>Comments: <br>
+                    <textarea name="commentary" rows="5" cols="119" class="color"></textarea>
+                </label>
+                <br>
+                <input type="checkbox" name="sign" value="email" required="required" class="top"> Sign me up for email updates
+                <br>
+                <input type="submit" value="Submit review" class="button top">
+            </fieldset>
+        </form>
+    </body>
+
+</html>

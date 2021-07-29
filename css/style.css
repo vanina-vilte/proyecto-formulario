@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #E8505B;
+}
+
+legend {
+    font-family: 'Bebas Neue', cursive;
+}
+
+form {
+    width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #F9D56E;
+    box-shadow: 0px 0px 50px 0px #772e3277;
+}
+
+.about {
+    margin-bottom: 25px;
+}
+
+.button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #E98580;
+    margin: 5px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border-color: #F3ECC2;
+    color: black;
+}
+
+.button:hover {
+    background-color: #DF5E5E;
+    color: white;
+}
+
+.top {
+    margin-top: 10px;
+}
+
+.color {
+    background-color: #F3ECC2;
+}
+
+fieldset {
+    border-radius: 40px;
+    border-color: #E8505B;
+}
